@@ -1,6 +1,6 @@
-import slide_1 from "../assets/image 2.png";
-import slide_2 from "../assets/image 1.png";
-import slide_3 from "../assets/image 3.png";
+import slide_1 from "../../../assets/image 2.png";
+import slide_2 from "../../../assets/image 1.png";
+import slide_3 from "../../../assets/image 3.png";
 
 const images = [
   {
