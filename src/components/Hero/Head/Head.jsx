@@ -38,7 +38,7 @@ function Head() {
           <span>Generate</span>
           <div className="flex gap-5">
             <span className="text-orange">PowerPoint</span>
-            <img src="./microsoft-powerpoint.png" alt="pp-logo" width={40} />
+            <img src="./microsoft-powerpoint.png" alt="pp-logo" className="w-[40px] h-10 mt-6"/>
           </div>
         </div>
         <span> presentations in minutes</span>
@@ -50,7 +50,7 @@ function Head() {
           minutes.
         </span>
       </div>
-      <div className="w-[183px] h-[48px] flex justify-center items-center mt-12">
+      <div className="w-[183px] h-[48px] flex justify-center items-center mt-10">
         <button className="bg-orange w-[183px] h-[48px] rounded-[60px] py-[10px] px-[17px] font-Elza font-medium text-xl text-textWhiteColor border border-orange  hover:bg-white hover:text-orange ">
           Start generating
         </button>

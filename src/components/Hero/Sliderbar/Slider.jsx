@@ -20,10 +20,21 @@ const images = [
 function Slider() {
   return (
     <>
-      <div className="flex mt-10 max-w-[1924px] h-[350px] gap-x-2">
-        {images.map((img) => {
-          return <img src={img.image} alt="slide images" key={img.id} width={622.22} height={350}/>;
-        })}
+      <div className="mb-10">
+        <div className="w-[1260px] h-[1210px] bg-circleYellow z-0 top-[380px] left-[70px] absolute rounded-full"></div>
+        <div className="flex mt-12 max-w-[1924px] h-[350px] gap-x-2 z-10 absolute">
+          {images.map((img) => {
+            return (
+              <img
+                src={img.image}
+                alt="slide images"
+                key={img.id}
+                width={622.22}
+                height={350}
+              />
+            );
+          })}
+        </div>
       </div>
     </>
   );
