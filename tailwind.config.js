@@ -14,6 +14,7 @@ export default {
       textBlackColor: 'rgba(72, 68, 70, 1)',
       textWhiteColor: 'rgba(255, 247, 239, 1)',
       black: 'rgba(0, 0, 0, 1)',
+      white: 'rgb(255, 255, 255)',
 
     }
   },

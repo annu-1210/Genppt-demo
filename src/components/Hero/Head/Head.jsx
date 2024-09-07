@@ -51,7 +51,9 @@ function Head() {
         </span>
       </div>
       <div className="w-[183px] h-[48px] flex justify-center items-center mt-14">
-        <button className="bg-orange w-[183px] h-[48px] rounded-[60px] py-[12px] px-[17px] font-Elza font-medium text-xl text-textWhiteColor">Start generating</button>
+        <button className="bg-orange w-[183px] h-[48px] rounded-[60px] py-[12px] px-[17px] font-Elza font-medium text-xl text-textWhiteColor border border-orange  hover:bg-white hover:text-orange ">
+          Start generating
+        </button>
       </div>
     </div>
   );
