@@ -2,7 +2,7 @@ import UcData from "../../../assets/UsecasesData/UcData";
 
 function TextSection() {
   return (
-    <div className="flex flex-col gap-[60px] font-Elza">
+    <div className="flex flex-col gap-[60px] font-Elza  w-[100%]">
       <div className="flex flex-col gap-4 font-Elza">
         <span className="text-orange">Use Cases</span>
         <span className="max-w-[591px] text-wrap font-semibold text-[53px] leading-[60px]">
