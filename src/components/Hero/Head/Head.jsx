@@ -1,6 +1,6 @@
 function Head() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center ">
       <div className="flex justify-between w-[227px] h-[32px]">
         <div className="flex relative w-[85px]">
           <div className="">
@@ -33,26 +33,39 @@ function Head() {
           </div>
         </div>
       </div>
-      <div className="pt-8 flex flex-col font-bold text-[68px] w-[861px] h-[148px] font-Elza justify-center items-center leading-[73px]">
-        <div className="flex gap-5">
+      <div className="pt-8 flex flex-col font-bold text-[30px] md:text-[42px] lg:text-[54px] xl:text-[68px] max-w-[861px] max-h-[148px] font-Elza justify-center items-center md:leading-[73px] leading-9  text-center text-wrap">
+        <div className="flex items-center justify-center gap-2 md:gap-5 sm:gap-3">
           <span>Generate</span>
-          <div className="flex gap-5">
+          <div className="flex items-center gap-2 md:gap-5 sm:gap-3">
             <span className="text-orange">PowerPoint</span>
-            <img src="./microsoft-powerpoint.png" alt="pp-logo" className="w-[40px] h-10 mt-6"/>
+            <div className="flex items-center justify-center">
+              <img
+                src="./microsoft-powerpoint.png"
+                alt="pp-logo"
+                className="md:w-[40px] md:h-10 w-[27px]  "
+              />
+            </div>
           </div>
         </div>
-        <span> presentations in minutes</span>
+        <div className="flex flex-wrap text-wrap ">
+          <span>presentations in minutes</span>
+        </div>
       </div>
-      <div className="w-[680px] h-[57px] font-Elza font-normal text-wrap text-xl mt-8 justify-center items-center text-textBlackColor pl-5 ml-3">
+      <div className="max-w-[720px] mx-auto mb-6 md:mb-[33px] h-[57px] font-Elza font-normal text-wrap text-xl mt-4 md:mt-8 justify-center items-center text-textBlackColor pl-5 text-center ">
         <span>
           Say goodbye to hours of manual work. GenPPT uses the power of AI to
           create professional PowerPoint presentations of any topic in just
           minutes.
         </span>
       </div>
-      <div className="w-[183px] h-[48px] flex justify-center items-center mt-10">
+      <div className="w-[183px] h-[48px] md:flex justify-center items-center md:mt-4  hidden">
         <button className="bg-orange w-[183px] h-[48px] rounded-[60px] py-[10px] px-[17px] font-Elza font-medium text-xl text-textWhiteColor border border-orange  hover:bg-white hover:text-orange ">
           Start generating
+        </button>
+      </div>
+      <div className="w-[134px] h-[45px] flex md:hidden justify-center items-center mt-14 ">
+        <button className="bg-orange w-[183px] h-[48px] rounded-[60px] py-[13px] px-[25px] font-Elza font-medium text-[16px] text-textWhiteColor border border-orange  hover:bg-white hover:text-orange ">
+          Get started
         </button>
       </div>
     </div>

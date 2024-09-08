@@ -3,7 +3,7 @@ import Slider from "./Sliderbar/Slider";
 
 function Hero() {
   return (
-    <div className="relative top-28">
+    <div className="relative mx-auto top-28 ">
       <Head />
       <div className="absolute top-[331px] left-[277px] z-20">
         <img src="./sparkle.png" alt="sparkle image" width={150} />

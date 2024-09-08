@@ -21,7 +21,7 @@ function Slider() {
   return (
     <>
       <div className="container">
-        <div className="w-[1260px] h-[1210px] bg-circleYellow z-0 top-[380px] left-[70px] absolute rounded-full"></div>
+        <div className="w-[1260px] h-[1210px] bg-circleYellow z-0 top-[390px] left-[70px] absolute rounded-full"></div>
         <div className="w-[295px] h-[50px] absolute z-20 top-[455px] left-[870px] flex justify-center items-center rounded-md shadow-tooltip1 font-Elza text-lg bg-gradient-to-r from-linearGradient1 to-linearGradient2">
           <span>Create a presentation about honey</span>
         </div>
@@ -41,7 +41,7 @@ function Slider() {
         <div className="absolute z-20 top-[540px] left-[780px]">
           <img src="./curve.png" alt="arrow" />
         </div>
-        <div className="flex mt-12 max-w-[1924px] h-[350px] gap-x-2 z-10 absolute">
+        <div className="flex mt-10 max-w-[1924px] h-[350px] gap-x-2 z-10 absolute">
           {images.map((img) => {
             return (
               <img
