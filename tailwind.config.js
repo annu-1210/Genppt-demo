@@ -23,6 +23,8 @@ export default {
         ReviewerGradient1: 'rgba(255, 255, 255, 0.7) ',
         ReviewerGradient2: 'rgba(255, 255, 255, 0.4) ',
         Footerbg: 'rgba(34, 24, 28, 1)',
+        FooterTextColor: 'rgba(156, 131, 141, 1)',
+
 
       },
       boxShadow: {
