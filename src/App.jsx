@@ -1,4 +1,5 @@
 // import Footer from "./components/Footer/Footer.jsx";
+import Blog from "./components/Blog/Blog.jsx";
 import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import HowItWorks from "./components/HowItWorks/HowItWorks.jsx";
@@ -15,10 +16,11 @@ function App() {
         <Hero />
         <Stats />
         <HowItWorks />
-        <UseCases/>
-        <Templates/>
-        <Reviews/>
-        <Pricing/>
+        <UseCases />
+        <Templates />
+        <Reviews />
+        <Pricing />
+        <Blog />
       </div>
       {/* <Footer /> */}
     </>
