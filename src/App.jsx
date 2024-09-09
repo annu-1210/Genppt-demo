@@ -3,6 +3,7 @@ import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import HowItWorks from "./components/HowItWorks/HowItWorks.jsx";
 import Stats from "./components/Stats/Stats.jsx";
+import Templates from "./components/Templates/Templates.jsx";
 import UseCases from "./components/UseCases/UseCases.jsx";
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Stats />
         <HowItWorks />
         <UseCases/>
+        <Templates/>
       </div>
       {/* <Footer /> */}
     </>

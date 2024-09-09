@@ -3,7 +3,7 @@ import TextSection from "./TextSection/TextSection";
 
 function UseCases() {
   return (
-    <div className="relative top-[550px] w-[100%] h-[823px]">
+    <div className="relative top-[550px] w-[100%] h-[873px]">
       <div className="absolute top-[53px] left-[53px] flex justify-between w-[96%]   gap-0">
         <div>
           <TextSection />
