@@ -3,7 +3,7 @@ import Frame from "./TpFrame/Frame";
 
 function Templates() {
   return (
-    <div className="relative top-[560px] w-[100%] h-[823px] ">
+    <div className="relative top-[100px] w-[100%] md:h-[570px]">
       <div className="absolute flex  w-[100%] gap-16">
         <div>
             <Frame/>

@@ -4,7 +4,7 @@ function Stats() {
   return (
     <>
       <section className="stats">
-        <div className="h-[434px] bg-circleYellow z-20 relative top-[530px] flex justify-around">
+        <div className="h-[434px] bg-circleYellow z-20 relative top-[80px] flex justify-around">
           <div className="absolute top-[100px] left-[59px]">
             <img src="./presentation.png" alt="presentation" width={262} />
           </div>

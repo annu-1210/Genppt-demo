@@ -3,7 +3,7 @@ import ReviewCards from "./ReviewCards/ReviewCards";
 
 function Reviews() {
   return (
-    <div className="relative top-[270px] gap-12 flex flex-col justify-center items-center py-20 bg-no-repeat bg-bottom bg-ellipse">
+    <div className="relative top-[60px] gap-12 flex flex-col justify-center items-center py-20 bg-no-repeat bg-bottom bg-ellipse">
       <div>
         <Head />
       </div>

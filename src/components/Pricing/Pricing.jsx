@@ -3,7 +3,7 @@ import PricingBox from "./PCard/PricingBox";
 
 function Pricing() {
   return (
-    <div className="relative top-[250px] bg-circleYellow h-[983px] md:h-[705px]">
+    <div className="relative top-[50px] bg-circleYellow h-[983px] md:h-[705px]">
       <div className="flex flex-col items-center justify-center py-16 gap-14">
         <div>
           <Head />

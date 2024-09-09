@@ -3,7 +3,7 @@ import ImageSection from "./ImageSection/ImageSection";
 
 function GetStarted() {
   return (
-    <div className="relative top-[300px] w-[100%] h-[590px] flex flex-col items-center pt-5 gap-10 ">
+    <div className="relative top-[100px] w-[100%] h-[590px] flex flex-col items-center pt-5 gap-10 ">
       <div className="w-[100%] ">
         <Head />
       </div>

@@ -41,6 +41,7 @@ export default {
       backgroundImage: {
         'ellipse': "url('/public/bg-ellipse.png')",
         'ellipse2': "url('/public/bg-ellipse-2.png')",
+        'ellipse3': "url('/public/bg-ellipse-3.png')",
       }
 
     },
