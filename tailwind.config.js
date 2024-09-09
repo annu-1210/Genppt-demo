@@ -18,17 +18,24 @@ export default {
         tooltipBg: 'rgba(255, 247, 239, 0.8)',
         linearGradient1: 'rgba(255, 234, 217, 0.7) ',
         linearGradient2: 'rgba(255, 234, 217, 0.4)',
-        CardGradient1:'rgba(238, 176, 125, 0.7)',
-        CardGradient2:'rgba(238, 176, 125, 0.4)',
-
+        CardGradient1: 'rgba(238, 176, 125, 0.7)',
+        CardGradient2: 'rgba(238, 176, 125, 0.4)',
+        ReviewerGradient1: 'rgba(255, 255, 255, 0.7) ',
+        ReviewerGradient2: 'rgba(255, 255, 255, 0.4) ',
       },
       boxShadow: {
         'tooltipS': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
         'tooltip1': '0px 20px 40px 0px rgba(0, 0, 0, 0.1)',
-
+        'Reviewbox-shadow': '0px 1px 4px 0px rgba(0, 0, 0, 0.25)',
       },
       lineHeight: {
         'stats': '60px',
+      },
+      fontWeight:{
+        medium: '500',
+      },
+      backgroundImage:{
+        'ellipse': "url('/public/bg-ellipse.png')",
       }
 
     },
