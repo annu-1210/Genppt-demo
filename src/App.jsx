@@ -1,5 +1,6 @@
-// import Footer from "./components/Footer/Footer.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import Blog from "./components/Blog/Blog.jsx";
+import GetStarted from "./components/GetStarted/GetStarted.jsx";
 import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import HowItWorks from "./components/HowItWorks/HowItWorks.jsx";
@@ -21,8 +22,9 @@ function App() {
         <Reviews />
         <Pricing />
         <Blog />
+        <GetStarted />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

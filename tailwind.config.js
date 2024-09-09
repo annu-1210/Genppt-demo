@@ -22,6 +22,8 @@ export default {
         CardGradient2: 'rgba(238, 176, 125, 0.4)',
         ReviewerGradient1: 'rgba(255, 255, 255, 0.7) ',
         ReviewerGradient2: 'rgba(255, 255, 255, 0.4) ',
+        Footerbg: 'rgba(34, 24, 28, 1)',
+
       },
       boxShadow: {
         'tooltipS': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
@@ -31,11 +33,12 @@ export default {
       lineHeight: {
         'stats': '60px',
       },
-      fontWeight:{
+      fontWeight: {
         medium: '500',
       },
-      backgroundImage:{
+      backgroundImage: {
         'ellipse': "url('/public/bg-ellipse.png')",
+        'ellipse2': "url('/public/bg-ellipse-2.png')",
       }
 
     },
