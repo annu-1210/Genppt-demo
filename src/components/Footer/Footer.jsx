@@ -27,7 +27,7 @@ const FooterData = [
 
 function Footer() {
   return (
-    <div className="relative top-[98px] bg-Footerbg h-[550px] mobile:h-[400px] md:h-[220px] w-[100%] ">
+    <div className="relative top-[65px] z-20 bg-Footerbg h-[550px] mobile:h-[400px] md:h-[220px] w-[100%] ">
       <div className="absolute top-[41px] left-[50px] flex flex-col md:flex-row gap-[70px] md:gap-[66px] lg:gap-[160px] xl:gap-[280px] laptop:gap-[305px] h-[332px] md:h-[150px]">
         <div>
           <img src="./logo.png" alt="logo" />
