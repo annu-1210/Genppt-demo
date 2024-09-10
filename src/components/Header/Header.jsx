@@ -42,7 +42,7 @@ function Header() {
           </div>
         </nav>
         {isOpen && (
-          <div className="fixed md:hidden flex flex-col border font-Elza text-textBlackColor top-16 right-[12px] rounded-md border-textBlackColor w-[170px] h-[181px] py-4 px-4">
+          <div className="fixed md:hidden flex flex-col border z-10 bg-white font-Elza text-textBlackColor top-20 right-[12px] rounded-md border-textBlackColor w-[170px] h-[181px] py-4 px-4">
             <div className="relative top-0 left-28">
               <button onClick={toggleNav}>
                 <RxCross2 size={24} />
