@@ -31,9 +31,10 @@ const features = [
 
 function PricingBox() {
   return (
-    <div className="flex w-[348px] md:w-[923px] font-Elza py-[30px] px-[32px] bg-gradient-to-r from-CardGradient1 to-CardGradient2 rounded-md">
-      <div className="gap-[39px] flex w-[348px] md:w-[846px]">
-        <div className="flex flex-col gap-[29px]">
+    <div className="flex w-[90%] lg:w-[923px] max-h-[1270px] justify-center items-center font-Elza py-[30px] px-[32px] bg-gradient-to-r from-CardGradient1 to-CardGradient2 rounded-md">
+      <div className="gap-[29px] flex w-[100%] flex-wrap justify-center items-center
+      ">
+        <div className="flex flex-col gap-[29px] items-center mobile:items-start">
           <div className="text-[30px] font-[600]">
             <span>What’s included</span>
           </div>

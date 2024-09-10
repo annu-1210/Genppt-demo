@@ -3,7 +3,7 @@ import Head from "./Head/Head";
 
 function HowItWorks() {
   return (
-    <div className="relative top-[100px] h-[722px] max-h-[1210px] w-[100%] bg-white z-30">
+    <div className="relative top-[100px] h-[1650px] sm:h-[1600px] md:h-[1230px] lg:h-[1200px] xl:h-[1200px] halfxl:h-[790px] w-[100%] z-30 flex flex-col items-center">
       <Head />
       <CardBox />
     </div>

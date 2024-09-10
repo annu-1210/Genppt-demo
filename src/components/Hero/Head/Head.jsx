@@ -51,7 +51,7 @@ function Head() {
           <span>presentations in minutes</span>
         </div>
       </div>
-      <div className="max-w-[720px] mx-auto mb-6 md:mb-[33px] h-[57px] font-Elza font-normal text-wrap text-xl mt-4 md:mt-8 justify-center items-center text-textBlackColor pl-5 text-center ">
+      <div className="max-w-[720px] mx-auto mb-6 md:mb-[33px] h-[57px] font-Elza font-normal text-wrap text-xl mt-4 md:mt-8 justify-center items-center text-textBlackColor pl-5 text-center bg-violet-200">
         <span>
           Say goodbye to hours of manual work. GenPPT uses the power of AI to
           create professional PowerPoint presentations of any topic in just

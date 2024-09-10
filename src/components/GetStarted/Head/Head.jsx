@@ -1,11 +1,11 @@
 function Head() {
   return (
-    <div className="flex flex-col flex-wrap items-center gap-6 font-Elza">
-      <div className="flex gap-1 text-[53px] leading-[60px] font-semibold">
+    <div className="flex flex-col flex-wrap items-center gap-4 sm:gap-6 font-Elza">
+      <div className=" text-[38px] text-center sm:text-[49px] md:text-[53px] leading-[48px] sm:leading-[60px] font-semibold">
         <span>Get started with</span>
         <span className="text-orange"> GenPPT</span>
       </div>
-      <div className="text-[21px] text-center text-wrap w-[350px] md:w-[730px] text-textBlackColor">
+      <div className="text-[16px] sm:text-[19px] md:text-[21px] text-center text-wrap  md:w-[730px] text-textBlackColor">
         <span>
           Get GenPPT today and transform your ideas into amazing PowerPoint
           presentations in only minutes!

@@ -3,7 +3,7 @@ import Head from "./Head/Head";
 
 function Blog() {
   return (
-    <div className="relative top-[70px] h-[840px] flex flex-col py-[60px] gap-16 items-center w-[100%] ">
+    <div className="relative top-[70px] lg:h-[800px] xl:h-[820px] flex flex-col py-[60px] gap-16 items-center w-[100%] ">
       <div className="w-[100%]">
         <Head />
       </div>

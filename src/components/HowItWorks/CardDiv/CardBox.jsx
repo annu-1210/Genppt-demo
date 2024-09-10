@@ -3,7 +3,7 @@ import CardData from "../../../assets/CardData/CardData.jsx";
 
 function CardBox() {
   return (
-    <div className="  w-[1330px] h-[373px] flex gap-[26px] justify-evenly pl-9 ">
+    <div className="  w-[100%] h-[700px] laptop:h-[373px] flex justify-center gap-[26px] items-center flex-wrap pt-14 ">
       {CardData.map((card) => {
         return (
           <div key={card.id} >

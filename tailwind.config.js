@@ -39,9 +39,14 @@ export default {
         medium: '500',
       },
       backgroundImage: {
-        'ellipse': "url('/public/bg-ellipse.png')",
-        'ellipse2': "url('/public/bg-ellipse-2.png')",
-        'ellipse3': "url('/public/bg-ellipse-3.png')",
+        'ellipse': "url('/bg-ellipse.png')",
+        'ellipse2': "url('/bg-ellipse-2.png')",
+        'ellipse3': "url('/bg-ellipse-3.png')",
+      },
+      screens: {
+        'mobile' : '426px',
+        'laptop' : '1440px',
+        'halfxl' : '1327px',
       }
 
     },

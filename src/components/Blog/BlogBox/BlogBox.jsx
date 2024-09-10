@@ -22,18 +22,18 @@ const BlogData = [
 
 function BlogBox() {
   return (
-    <div className="w-[100%] flex justify-center flex-wrap gap-[22px]">
+    <div className="w-[100%] flex items-center justify-center flex-wrap gap-10 md:gap-[10px] lg:gap-[13px] xl:gap-[18px] laptop:gap-[22px]">
       {BlogData.map((blog) => {
         return (
           <div
-            className="bg-gradient-to-r from-CardGradient1 to-CardGradient2 rounded-[7px] border w-[436px] h-[344px] py-5 px-5"
+            className="bg-gradient-to-r from-CardGradient1 to-CardGradient2 rounded-[7px] border w-[90%] sm:w-[60%] md:w-[300px] lg:w-[300px] xl:-w-[390px] laptop:w-[436px] mobile:h-[320px] sm:h-[300px] md:h-[260px] lg:h-[290px] xl:h-[320px] laptop:h-[344px]  py-5 px-5"
             key={blog.id}
           >
             <div className="flex flex-col gap-4">
-              <div className="w-[393px] h-[221px]">
+              <div className=" laptop:w-[393px] laptop:h-[221px]">
                 <img src={blog.image} alt="blog" />
               </div>
-              <div className="text-[25px] leading-[30px] font-medium text-wrap">
+              <div className="lg:text-[22px] xl:text-[24px] laptop:text-[25px] lg:leading-[25px] laptop:leading-[30px] font-medium text-wrap text-center md:text-start">
                 <span>{blog.text}</span>
               </div>
             </div>

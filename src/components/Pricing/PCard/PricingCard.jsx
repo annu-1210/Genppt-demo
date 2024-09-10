@@ -20,7 +20,7 @@ const CardBox = [
 
 function PricingCard() {
   return (
-    <div className="flex gap-10 py-5 ">
+    <div className="flex flex-wrap gap-10 py-5 w-[100%] justify-center">
       {CardBox.map((card) => {
         return (
           <div

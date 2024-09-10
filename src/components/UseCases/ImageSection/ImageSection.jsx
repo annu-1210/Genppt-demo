@@ -1,24 +1,13 @@
 function ImageSection() {
   return (
-    <div className="relative w-[100%] ">
-      <div className="flex flex-col items-start ">
-        <div className=" h-[72px] pl-16 ml-10    ">
-          <img src="./prompt-div.png" alt="prompt" />
-        </div>
-        <div className=" h-[85px]  mr-40">
-          <img src="./np-div.png" alt="np-prompt" />
-        </div>
+    <>
+      <div className="hidden md:flex w-[100%] md:w-[300px] lg:w-[400px] halfxl:w-[500px] laptop:w-[670px] ">
+        <img src="./use-cases-img.png" alt="use-cases-img" width={670} />
       </div>
-      <div className="absolute left-4 top-44">
-        <img src="./curve2.png" alt="vector" />
+      <div className="md:hidden  flex justify-center items-center w-[80%] mobile:w-[100%] mt-10">
+        <img src="./use-cases-img-mobile.png" alt="use-cases-img" width={670} />
       </div>
-      <div className="absolute z-0 right-18 top-52 w-[500px]">
-        <img src="./image 12.png" alt="img" />
-      </div>
-      <div className="absolute right-0 z-10 top-44 w-[450px]">
-        <img src="./image 13.png" alt="img" />
-      </div>
-    </div>
+    </>
   );
 }
 

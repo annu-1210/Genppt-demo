@@ -14,7 +14,7 @@ function App() {
     <>
       <Header />
       <div>
-        <Hero />
+        <Hero  />
         <Stats />
         <HowItWorks />
         <UseCases />

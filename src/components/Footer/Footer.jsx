@@ -27,17 +27,17 @@ const FooterData = [
 
 function Footer() {
   return (
-    <div className="relative top-[108px] bg-Footerbg h-[332px] md:h-[220px] w-[100%] ">
-      <div className="absolute top-[41px] left-[50px] flex gap-[305px] h-[332px] md:h-[150px]">
+    <div className="relative top-[98px] bg-Footerbg h-[550px] mobile:h-[400px] md:h-[220px] w-[100%] ">
+      <div className="absolute top-[41px] left-[50px] flex flex-col md:flex-row gap-[70px] md:gap-[66px] lg:gap-[160px] xl:gap-[280px] laptop:gap-[305px] h-[332px] md:h-[150px]">
         <div>
           <img src="./logo.png" alt="logo" />
         </div>
-        <div className="flex gap-[76px]">
+        <div className="flex gap-[65px] mobile:gap-[50px] sm:gap-[70px] md:gap-[36px] lg:gap-[76px] flex-wrap">
           {FooterData.map((data) => {
             return (
               <div
                 key={data.id}
-                className="max-x-[120px] max-h-[119px] flex flex-col gap-[13px] items-start"
+                className="max-x-[120px] max-h-[119px] flex flex-col gap-[10px] md:gap-[8px] lg:gap-[13px] items-start"
               >
                 <div className="text-white text-[20px] font-medium">
                   <span>{data.title}</span>

@@ -4,7 +4,7 @@ function Head() {
       <div className="font-medium text-[15px] md:text-[19px]">
         <span className="text-orange">Customer Reviews</span>
       </div>
-      <div className=" text-[27px] md:text-[53px] font-semibold leading-[30px] md:leading-[60px]">
+      <div className="text-center text-[27px] md:text-[53px] font-semibold leading-[30px] md:leading-[60px]">
         <span>Hear from our</span>
         <span className="text-orange"> satisfied customers</span>
       </div>
