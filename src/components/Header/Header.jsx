@@ -13,7 +13,7 @@ function Header() {
   return (
     <>
       <section className="navbar">
-        <nav className="flex justify-between h-[42px] w-[90%] items-center bg-blue-300 relative top-8 left-[28px] md:left-[50px] right-[51px]  font-Elza ">
+        <nav className="flex justify-between h-[42px] w-[90%] items-center relative top-8 left-[28px] md:left-[50px] right-[51px]  font-Elza ">
           <div className="flex gap-1 w-[155px] h-[29px] items-center">
             <img src="./logo-Genppt.png" alt="Genppt-logo" width={29} />
             <span className="text-black w-[81px] font-medium text-[22px]">
