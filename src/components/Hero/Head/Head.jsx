@@ -33,8 +33,8 @@ function Head() {
           </div>
         </div>
       </div>
-      <div className="pt-8 flex flex-col font-bold text-[30px] md:text-[42px] lg:text-[54px] xl:text-[68px] max-w-[861px] max-h-[148px] font-Elza justify-center items-center md:leading-[73px] leading-9  text-center text-wrap">
-        <div className="flex items-center justify-center gap-2 md:gap-5 sm:gap-3">
+      <div className="pt-8 flex flex-col font-bold text-[30px] md:text-[42px] lg:text-[54px] xl:text-[68px] max-w-[861px] max-h-[148px] font-Elza justify-center items-center md:leading-[72px] leading-9 text-center text-wrap">
+        <div className="flex items-center justify-center leading-[30px] xl:leading-[70px] md:gap-5 sm:gap-3">
           <span>Generate</span>
           <div className="flex items-center gap-2 md:gap-5 sm:gap-3">
             <span className="text-orange">PowerPoint</span>
@@ -51,8 +51,8 @@ function Head() {
           <span>presentations in minutes</span>
         </div>
       </div>
-      <div className="max-w-[720px] mx-auto mb-6 md:mb-[33px] h-[57px] font-Elza font-normal text-wrap text-xl mt-4 md:mt-8 justify-center items-center text-textBlackColor pl-5 text-center ">
-        <span>
+      <div className=" max-w-[720px]  mb-6 md:mb-[33px] font-Elza font-normal text-wrap  sm:text-xl mt-4 md:mt-8 text-center text-textBlackColor pl-5">
+        <span className="text-center">
           Say goodbye to hours of manual work. GenPPT uses the power of AI to
           create professional PowerPoint presentations of any topic in just
           minutes.
@@ -63,8 +63,8 @@ function Head() {
           Start generating
         </button>
       </div>
-      <div className="w-[134px] h-[45px] flex md:hidden justify-center items-center mt-14 ">
-        <button className="bg-orange w-[183px] h-[48px] rounded-[60px] py-[13px] px-[25px] font-Elza font-medium text-[16px] text-textWhiteColor border border-orange  hover:bg-white hover:text-orange ">
+      <div className="w-[130px] h-[45px] flex md:hidden justify-center items-center sm:mt-3 ">
+        <button className="bg-orange w-[180px] sm:w-[183px] h-[40px] sm:h-[44px] rounded-[60px] py-[8px] sm:py-[10px] px-[15px] sm:px-[18px] font-Elza font-medium text-[16px] text-textWhiteColor border border-orange  hover:bg-white hover:text-orange ">
           Get started
         </button>
       </div>

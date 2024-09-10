@@ -23,7 +23,7 @@ function Stats() {
               </div>
             </div>
           </div>
-          <div className="absolute top-[377px] md:top-[130px] right-[-10px]  md:right-0  w-[122px] md:w-[142px] lg:w-[242px]">
+          <div className="absolute top-[377px] md:top-[130px] right-0  md:right-0  w-[122px] md:w-[142px] lg:w-[242px]">
             <img src="./time.png" alt="time"  />
           </div>
         </div>
