@@ -1,6 +1,6 @@
-import img_1 from "./card-img1.png";
-import img_2 from "./card-img2.png";
-import img_3 from "./card-img3.png";
+import img_1 from "./presentation-card-1.png";
+import img_2 from "./presentation-card-2.png";
+import img_3 from "./presentation-card-3.png";
 
 const CardData = [
   {

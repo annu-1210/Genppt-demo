@@ -1,13 +1,16 @@
-import CardBox from "./CardDiv/CardBox";
-import Head from "./Head/Head";
+import CardBox from "./CardBox";
+import Head from "./Head";
 
 function HowItWorks() {
   return (
-    <div className="relative top-[100px] h-[1650px] sm:h-[1600px] md:h-[1230px] lg:h-[1200px] xl:h-[1200px] halfxl:h-[790px] w-[100%] z-30 flex flex-col items-center">
-      <Head />
-      <CardBox />
-    </div>
+    <section className="max-w-[1440px] mx-auto relative flex justify-center items-center py-[38px] md:py-[54px]">
+      <div className="container z-30 flex flex-col px-3 mx-auto text-start gap-14 ">
+        <Head />
+        <CardBox />
+      </div>
+    </section>
   );
 }
 
 export default HowItWorks;
+ 

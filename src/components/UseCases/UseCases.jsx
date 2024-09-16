@@ -1,18 +1,21 @@
-import ImageSection from "./ImageSection/ImageSection";
-import TextSection from "./TextSection/TextSection";
+import ImageSection from "./ImageSection";
+import TextSection from "./TextSection";
 
 function UseCases() {
   return (
-    <div className="relative top-[100px] w-[100%] h-[1400px] mobile:h-[1500px] sm:h-[1250px] md:h-[873px] ">
-      <div className="absolute top-[53px] left-[20px] md:left-[30px]  xl:left-[53px] flex flex-col md:flex-row sm:items-center md:justify-between w-[96%]  gap-0 ">
-        <div className="w-[100%]">
-          <TextSection />
-        </div>
-        <div className=" laptop:w-[100%] xl:w-[70%] mt-10 flex items-center">
-          <ImageSection />
-        </div>
+    <section className="max-w-[1440px] mx-auto relative flex flex-col justify-center items-center py-[38px] md:py-[54px]">
+      <div className="container z-30 flex px-5 mx-auto mobile:px-3 text-start gap-14 ">
+        <TextSection />
+        <ImageSection />
       </div>
-    </div>
+      <img
+        src="./Images/use-cases-img-mobile.png"
+        alt="use-cases-img"
+        width={680}
+        height={500}
+        className="mt-[63px] w-full max-w-[450px] sm:max-w-[70%] mx-auto md:hidden"
+      />
+    </section>
   );
 }
 

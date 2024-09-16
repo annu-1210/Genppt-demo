@@ -1,21 +1,18 @@
-import BlogBox from "./BlogBox/BlogBox";
-import Head from "./Head/Head";
+import ActionButton from "../ActionButton";
+import BlogBox from "./BlogBox";
+import Head from "./Head";
 
 function Blog() {
   return (
-    <div className="relative top-[70px] lg:h-[800px] xl:h-[820px] flex flex-col py-[60px] gap-16 items-center w-[100%] ">
-      <div className="w-[100%]">
+    <section className="relative pt-[38px] pb-5 md:py-16 mx-auto">
+      <div className="container flex flex-col gap-6 px-0 mx-auto mobile:gap-10 md:px-3">
         <Head />
-      </div>
-      <div className="w-[100%] flex justify-start items-start ">
         <BlogBox />
+        <div className="w-full h-[48px] flex justify-center items-center mt-5 ">
+          <ActionButton desktop="View all posts" mobile= "View all posts" color= "teritary" size="lg"/>
+        </div>
       </div>
-      <div className="w-[183px] h-[48px] flex justify-center items-center mt-5 ">
-        <button className=" bg-white w-[183px] h-[48px] rounded-[60px] py-[10px] px-[17px] font-Elza font-medium text-xl  text-orange border border-orange  hover:bg-orange hover:text-textWhiteColor ">
-        View all posts
-        </button>
-      </div>
-    </div>
+    </section>
   );
 }
 

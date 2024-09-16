@@ -1,21 +1,15 @@
-import TemplateText from "./TemplateText/TemplateText";
-import Frame from "./TpFrame/Frame";
+import TemplateText from "./TemplateText";
 
 function Templates() {
   return (
-    <div className="relative top-[150px] md:top-[50px] lg:top-[100px] w-[100%] h-[700px] md:h-[400px] lg:h-[570px]">
-      <div className="absolute flex flex-col-reverse md:flex-row   w-[100%] gap-16">
-        <div className="w-[100%] flex md:justify-start justify-center">
-            <Frame/>
-        </div>
-        <div className="w-[100%]">
-            <TemplateText/>
-        </div>
-        {/* <div className="absolute z-10 w-[100px] top-96 right-[500px]">
-          <img src="./sparkle2.png" alt="sparkle" />
-        </div> */}
+    <section className="relative max-w-[1440px] mx-auto pt-2 mobile:pt-10 xl:py-[105px] ">
+      <div className="container flex justify-end w-full mx-auto xl:pb-10">
+      <TemplateText />
       </div>
-    </div>
+      <img src="./Images/templates-frame.png" alt="frame" className="absolute left-0 bottom-0  top-[80px] hidden md:block w-full max-w-[48%] lg:max-w-[440px] xl:max-w-[48%]"/>
+      <img src="./Images/templates-frame.png" alt="frame" className=" mt-[68px] w-full max-w-[450px] sm:max-w-[70%] mx-auto md:hidden"/>
+     
+    </section>
   );
 }
 

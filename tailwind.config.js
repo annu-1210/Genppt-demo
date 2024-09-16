@@ -1,3 +1,5 @@
+// const { withTV } = require('tailwind-variants/transformer');
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html",
@@ -5,7 +7,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Elza: ['"elza"', "sans-serif"]
+        elzaLight: ['light-elza'],
+        elzaNormal: ['normal-elza'],
+        elzaMedium: ['medium-elza'],
+        elzaSemibold: ['semibold-elza'],
+        elzaBold: ['bold-elza'],
       },
       colors: {
         orange: 'rgba(239, 108, 0, 1)',
@@ -14,8 +20,10 @@ export default {
         textBlackColor: 'rgba(72, 68, 70, 1)',
         textWhiteColor: 'rgba(255, 247, 239, 1)',
         black: 'rgba(0, 0, 0, 1)',
+        BoldBlack: 'rgba(34, 24, 28, 1)',
         white: 'rgb(255, 255, 255)',
         tooltipBg: 'rgba(255, 247, 239, 0.8)',
+        statsCardBg: 'rgba(255, 255, 255, 0.9)',
         linearGradient1: 'rgba(255, 234, 217, 0.7) ',
         linearGradient2: 'rgba(255, 234, 217, 0.4)',
         CardGradient1: 'rgba(238, 176, 125, 0.7)',
@@ -24,8 +32,6 @@ export default {
         ReviewerGradient2: 'rgba(255, 255, 255, 0.4) ',
         Footerbg: 'rgba(34, 24, 28, 1)',
         FooterTextColor: 'rgba(156, 131, 141, 1)',
-
-
       },
       boxShadow: {
         'tooltipS': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
@@ -35,18 +41,15 @@ export default {
       lineHeight: {
         'stats': '60px',
       },
-      fontWeight: {
-        medium: '500',
-      },
       backgroundImage: {
-        'ellipse': "url('/bg-ellipse.png')",
-        'ellipse2': "url('/bg-ellipse-2.png')",
-        'ellipse3': "url('/bg-ellipse-3.png')",
+        'ellipse': "url('/Images/bg-ellipse.png')",
+        'ellipse2': "url('/Images/bg-ellipse-2.png')",
+        'ellipse3': "url('/Images/bg-ellipse-3.png')",
       },
       screens: {
-        'mobile' : '426px',
-        'laptop' : '1440px',
-        'halfxl' : '1327px',
+        'mobile': '426px',
+        'laptop': '1440px',
+        'halfxl': '1327px',
       }
 
     },

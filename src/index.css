@@ -2,9 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+
+.common-para{
+  @apply  text-sm max-w-[720px] text-wrap sm:text-lg xl:text-[21px] text-center font-elzaNormal leading-[22px] mobile:leading-[29px] text-textBlackColor 
+}
+
+.container{
+  @apply max-w-[670px] md:max-w-[750px] lg:max-w-[1000px] xl:max-w-[1366px] 
+}
+
+.footerList{
+  @apply text-[18px] text-FooterTextColor hover:text-white
+}
+
+.underline-animation{
+  @apply relative
+}
+
+.underline-animation::after{
+  @apply absolute content-[''] w-full left-0 border bottom-[-2px] scale-x-0 hover:scale-x-100 transition-transform duration-300 border-black
+}
+
+@font-face {
+  font-family: "light-elza";
+  src: url("../Fonts/elza-light.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "normal-elza";
+  src: url("../Fonts/elza-regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "medium-elza";
+  src: url("../Fonts/elza-medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "semibold-elza";
+  src: url("../Fonts/elza-semibold.otf") format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "bold-elza";
+  src: url("../Fonts/elza-bold.otf") format("opentype");
+  font-weight: 700;
 }
 
