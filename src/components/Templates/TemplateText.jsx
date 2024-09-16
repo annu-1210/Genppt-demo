@@ -10,7 +10,7 @@ function TemplateText() {
         Over <span className="text-orange">50+ inspiring </span>
         templates
       </h3>
-      <h6 className="md:text-start common-para ">
+      <h6 className="mx-3 md:text-start common-para">
         GenPPT provides a range of professionally designed templates for any
         style, from elegant and minimalist to notebook.
       </h6>

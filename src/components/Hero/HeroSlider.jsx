@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 // import { Navigation, Pagination } from "swiper/modules";
 
 const HeroSlider = () => {
-  const [activeSlide, setActiveSlide] = useState(0);
+  const [activeSlide, setActiveSlide] = useState(1);
 
   const handleSlideChange = (swiper) => {
     setActiveSlide(swiper.activeIndex);
@@ -22,6 +22,7 @@ const HeroSlider = () => {
         spaceBetween={20}
         slidesPerView={1.9}
         centeredSlides={true}
+        centeredSlidesBounds = {true}
         // navigation
         // pagination={{ clickable: true }}
         onSlideChange={handleSlideChange}
