@@ -15,7 +15,12 @@ function TemplateText() {
         style, from elegant and minimalist to notebook.
       </h6>
       <div className="w-full h-[48px] flex justify-center md:justify-start items-center mt-6 md:mt-5 ">
-       <ActionButton desktop="View templates" mobile="View templates" color= "teritary" size="xl"/>
+        <ActionButton
+          desktop="View templates"
+          mobile="View templates"
+          color="teritary"
+          size="xl"
+        />
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ function Hero() {
         <Head />
       </div>
       <div className="2xl:max-w-[1920px] w-full max-h-[482px] pt-[53px] mt-1">
-      <HeroSlider/>
+        <HeroSlider />
       </div>
       <div className="absolute w-[100px] mobile:w-[100px] sm:w-[120px] lg:w-[320px] top-[290px] sm:top-[250px] md:top-[300px] lg:top-[330px] xl:top-[354px] left-[30px] sm:left-[80px] md:left-[110px] xl:left-[277px] z-30">
         <img src="./Images/sparkle.png" alt="sparkle image" width={150} />

@@ -6,7 +6,6 @@ function Pricing() {
     <section className="relative max-w-full mx-auto bg-circleYellow py-[38px]  xl:pt-[56px] md:pb-[57px] lg:pb-28">
       <div className="container max-w-[1440px] mx-auto flex flex-col items-center justify-center px-3 gap-14">
         <Head />
-        {/* <div className="w-[100%] flex justify-center"> */}
         <PricingBox />
       </div>
       <img

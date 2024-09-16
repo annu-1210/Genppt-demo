@@ -12,9 +12,14 @@ function Head() {
         presentations in only minutes!
       </h6>
       <div>
-      <div className="flex items-center justify-center w-full mt-4">
-        <ActionButton desktop="Start generating" mobile="Get started" color="secondary" size="xxl"/>
-      </div>
+        <div className="flex items-center justify-center w-full mt-4">
+          <ActionButton
+            desktop="Start generating"
+            mobile="Get started"
+            color="secondary"
+            size="xxl"
+          />
+        </div>
       </div>
     </div>
   );

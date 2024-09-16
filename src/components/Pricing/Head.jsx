@@ -5,7 +5,8 @@ function Head() {
         Choose your pricing plan
       </h3>
       <h6 className="text-base max-w-[720px] text-wrap sm:text-lg xl:text-[21px] text-center font-elzaNormal text-BoldBlack">
-      Upgrade to GenPPT+ to unlock exclusive features guaranteed to boost your productivity!
+        Upgrade to GenPPT+ to unlock exclusive features guaranteed to boost your
+        productivity!
       </h6>
     </div>
   );

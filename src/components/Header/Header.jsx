@@ -16,7 +16,12 @@ function Header() {
       <nav className="relative z-30 w-full overflow-hidden">
         <div className="container flex items-center justify-between px-3 py-5 mx-auto md:py-6 ">
           <a className="flex items-center gap-1 w-[155px] h-[29px] " href="/">
-            <img src="./Images/genppt-logo.png" alt="Genppt-logo" width={29} className="w-[18px] mobile:w-[29px]"/>
+            <img
+              src="./Images/genppt-logo.png"
+              alt="Genppt-logo"
+              width={29}
+              className="w-[18px] mobile:w-[29px]"
+            />
             <p className="text-black w-[81px] font-elzaMedium text-base mobile:text-[22px]">
               GenPPT
             </p>
@@ -25,7 +30,12 @@ function Header() {
             <div className="hidden md:inline-block">
               <NavLinks />
             </div>
-            <ActionButton desktop="Start generating" mobile="Get started" color="primary" size="sm"/>
+            <ActionButton
+              desktop="Start generating"
+              mobile="Get started"
+              color="primary"
+              size="sm"
+            />
             <div className="flex ml-3 md:hidden w-[28px] mobile:w-[36px]">
               <IoMenu size={36} onClick={toggleNav} />
             </div>

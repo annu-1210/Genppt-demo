@@ -43,14 +43,15 @@ function Stats() {
             </div>
           </div>
           <img
-          src="./Images/presentation.png"
-          alt="presentation"
-          className=" max-w-[100px] xsm:max-w-[122px] md:max-w-[150px] lg:max-w-[200px] xl:max-w-none absolute left-[-51px] sm:left-0 top-[35%] sm:top-1/2 sm:translate-y-[-50%]"/>
-        <img
-          src="./Images/time.png"
-          alt="time"
-          className="max-w-[100px] xsm:max-w-[122px] md:max-w-[150px] lg:max-w-[200px] xl:max-w-none absolute right-[-35px] sm:right-0 bottom-4 sm:bottom-0"
-        />
+            src="./Images/presentation.png"
+            alt="presentation"
+            className=" max-w-[100px] xsm:max-w-[122px] md:max-w-[150px] lg:max-w-[200px] xl:max-w-none absolute left-[-51px] sm:left-0 top-[35%] sm:top-1/2 sm:translate-y-[-50%]"
+          />
+          <img
+            src="./Images/time.png"
+            alt="time"
+            className="max-w-[100px] xsm:max-w-[122px] md:max-w-[150px] lg:max-w-[200px] xl:max-w-none absolute right-[-35px] sm:right-0 bottom-4 sm:bottom-0"
+          />
         </div>
       </section>
     </>

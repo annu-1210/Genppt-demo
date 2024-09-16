@@ -22,30 +22,54 @@ const HeroSlider = () => {
         spaceBetween={20}
         slidesPerView={1.9}
         centeredSlides={true}
-        centeredSlidesBounds = {true}
+        centeredSlidesBounds={true}
         // navigation
         // pagination={{ clickable: true }}
         onSlideChange={handleSlideChange}
       >
         <SwiperSlide className="mr-0">
           <div
-            className={`${activeSlide === 0 ? "opacity-100" : "opacity-70"}  w-[622px] `}
+            className={`${
+              activeSlide === 0 ? "opacity-100" : "opacity-70"
+            }  w-[622px] `}
           >
-            <img src={img_1} alt="" width={522} height={350} className="w-full"/>
+            <img
+              src={img_1}
+              alt=""
+              width={522}
+              height={350}
+              className="w-full"
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide className="mr-0">
           <div
-            className={`${activeSlide === 1 ? "opacity-100" : "opacity-70"}  w-[622px]  `}
+            className={`${
+              activeSlide === 1 ? "opacity-100" : "opacity-70"
+            }  w-[622px]  `}
           >
-            <img src={img_2} alt="" width={522} height={350} className="w-full"/>
+            <img
+              src={img_2}
+              alt=""
+              width={522}
+              height={350}
+              className="w-full"
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide className="mr-0">
           <div
-            className={`${activeSlide === 2 ? "opacity-100" : "opacity-70"}  w-[622px]`}
+            className={`${
+              activeSlide === 2 ? "opacity-100" : "opacity-70"
+            }  w-[622px]`}
           >
-            <img src={img_3} alt="" width={522} height={350} className="w-full"/>
+            <img
+              src={img_3}
+              alt=""
+              width={522}
+              height={350}
+              className="w-full"
+            />
           </div>
         </SwiperSlide>
       </Swiper>

@@ -41,9 +41,12 @@ function PricingCard() {
               </div>
             </div>
             <div className="w-[134px] h-[45px] flex  justify-center items-center mt-3">
-              <ActionButton desktop="Get Started" mobile="Get Started" color="secondary" size="md"/>
-              {/* <button className="bg-orange w-[183px] h-[48px] rounded-[60px] py-[13px] px-[25px] font-Elza font-medium text-[16px] text-textWhiteColor border border-orange  hover:bg-white hover:text-orange ">
-              </button> */}
+              <ActionButton
+                desktop="Get Started"
+                mobile="Get Started"
+                color="secondary"
+                size="md"
+              />
             </div>
           </div>
         );

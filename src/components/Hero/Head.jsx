@@ -66,7 +66,12 @@ function Head() {
         minutes.
       </h6>
       <div className="flex items-center justify-center w-full mt-2 ">
-        <ActionButton desktop="Start generating" mobile="Get started" color="secondary" size="xxl"/>
+        <ActionButton
+          desktop="Start generating"
+          mobile="Get started"
+          color="secondary"
+          size="xxl"
+        />
       </div>
     </div>
   );

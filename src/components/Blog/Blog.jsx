@@ -9,7 +9,12 @@ function Blog() {
         <Head />
         <BlogBox />
         <div className="w-full h-[48px] flex justify-center items-center mt-5 ">
-          <ActionButton desktop="View all posts" mobile= "View all posts" color= "teritary" size="lg"/>
+          <ActionButton
+            desktop="View all posts"
+            mobile="View all posts"
+            color="teritary"
+            size="lg"
+          />
         </div>
       </div>
     </section>
