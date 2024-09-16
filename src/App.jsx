@@ -9,8 +9,6 @@ import Reviews from "./components/Reviews/Reviews.jsx";
 import Stats from "./components/Stats.jsx";
 import Templates from "./components/Templates/Templates.jsx";
 import UseCases from "./components/UseCases/UseCases.jsx";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
