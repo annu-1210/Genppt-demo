@@ -45,6 +45,7 @@ export default {
         'ellipse': "url('/Images/bg-ellipse.png')",
         'ellipse2': "url('/Images/bg-ellipse-2.png')",
         'ellipse3': "url('/Images/bg-ellipse-3.png')",
+        
       },
       screens: {
         'mobile': '426px',
