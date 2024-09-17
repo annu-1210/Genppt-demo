@@ -10,35 +10,53 @@
 
 @layer components {
   .Swiper-Slide {
-    max-width: 640px !important;
+    max-width: 242px !important;
     width: 100% !important;
-  }
-  @media (max-width:1280px) {
-    .Swiper-Slide {
-      max-width: 860px !important;
-      width: 100% !important;
+
+    @screen mobile{
+      max-width : 322px !important;
+    }
+
+    @screen sm{
+      max-width : 328px !important;
+    }
+
+    @screen md {
+      max-width: 334px !important;
+    }
+    
+    @screen lg {
+      max-width: 450px !important;
+    }
+
+    @screen xl{
+      max-width: 638px !important;
+    }
+
+    @screen 2xl {
+      max-width: 868px !important;
     }
   }
 }
 
-.common-para{
-  @apply  text-sm max-w-[720px] text-wrap sm:text-lg xl:text-[21px] text-center font-elzaNormal leading-[22px] mobile:leading-[29px] text-textBlackColor 
+.common-para {
+  @apply text-sm max-w-[720px] text-wrap sm:text-lg xl:text-[21px] text-center font-elzaNormal leading-[22px] mobile:leading-[29px] text-textBlackColor;
 }
 
-.container{
-  @apply max-w-[670px] md:max-w-[750px] lg:max-w-[1000px] xl:max-w-[1366px] 
+.container {
+  @apply max-w-[670px] md:max-w-[750px] lg:max-w-[1000px] xl:max-w-[1366px];
 }
 
-.footerList{
-  @apply text-[18px] text-FooterTextColor hover:text-white
+.footerList {
+  @apply text-[18px] text-FooterTextColor hover:text-white;
 }
 
-.underline-animation{
-  @apply relative
+.underline-animation {
+  @apply relative;
 }
 
-.underline-animation::after{
-  @apply absolute content-[''] w-full left-0 border bottom-[-2px] scale-x-0 hover:scale-x-100 transition-transform duration-300 border-black
+.underline-animation::after {
+  @apply absolute content-[''] w-full left-0 border bottom-[-2px] scale-x-0 hover:scale-x-100 transition-transform duration-300 border-black;
 }
 
 @font-face {
@@ -70,4 +88,3 @@
   src: url("../Fonts/elza-bold.otf") format("opentype");
   font-weight: 700;
 }
-

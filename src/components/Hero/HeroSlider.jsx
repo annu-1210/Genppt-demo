@@ -9,7 +9,7 @@ import tooltip from "/Images/slider-tooltip.png";
 const HeroSlider = () => {
   const [activeSlide, setActiveSlide] = useState(0);
 
-  const images = [img_1, img_2, img_3];
+  const images = [img_1, img_2, img_3, img_1, img_2, img_3];
 
   const tooltipImage = tooltip;
 
@@ -17,6 +17,7 @@ const HeroSlider = () => {
     setActiveSlide(swiper.realIndex);
   };
 
+  // const indexes = images[1] + images[4];
   return (
     <div className="w-full max-w-[1920px] mx-auto py-4">
       <Swiper
@@ -26,9 +27,8 @@ const HeroSlider = () => {
         spaceBetween={30}
         onSlideChange={handleSlideChange}
         breakpoints={{
-          640: { slidesPerView: 1.3 },
-          768: { slidesPerView: 1.5 },
-          1024: { slidesPerView: 2.2 },
+          768: { slidesPerView: 1.2},
+          1024: { slidesPerView: 1.3 },
         }}
       >
         {images.map((image, index) => (
@@ -38,13 +38,13 @@ const HeroSlider = () => {
                 activeSlide === index ? "opacity-100" : "opacity-70"
               }`}
             >
-              {index === 1 && (
+              {(index === 1 || index === 4) && (
                 <img
                   src={tooltipImage}
-                  alt="Special Image"
+                  alt="tooltip"
                   width={415}
                   className={`absolute bottom-[-20px] sm:bottom-4 xl:bottom-8 right-12 sm:right-[46px] translate-x-[50%] ease-in-out duration-300 max-w-[200px] lg:max-w-[300px] xl:max-w-none z-10 ${
-                    activeSlide === 1 ? "opacity-100" : "opacity-0"
+                    activeSlide === index ? "opacity-100" : "opacity-0"
                   }`}
                 />
               )}
