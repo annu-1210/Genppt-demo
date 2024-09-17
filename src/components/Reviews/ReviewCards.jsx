@@ -6,7 +6,7 @@ function ReviewCards() {
       {ReviewerData.map((user) => {
         return (
           <div
-            className=" flex flex-col justify-between sm:w-6/12 lg:w-3/12 mt-[33px] max-w-[290px] lg:max-w-[230px] xl:max-w-[310px] gap-[38px] p-[15px] bg-gradient-to-r from-ReviewerGradient1 to-ReviewerGradient2 shadow-Reviewbox-shadow rounded-lg hover:transition-all duration-300"
+            className=" flex flex-col justify-between sm:w-6/12 lg:w-3/12 mt-[33px] max-w-[290px] lg:max-w-[230px] xl:max-w-[310px] gap-[38px] p-[15px] bg-gradient-to-r from-ReviewerGradient1 to-ReviewerGradient2 shadow-Reviewbox-shadow rounded-lg shadow-transition"
             key={user.id}
           >
             <p className="text-[17px] font-elzaNormal leading-[25px] text-wrap text-BoldBlack">

@@ -34,8 +34,8 @@ export default {
         FooterTextColor: 'rgba(156, 131, 141, 1)',
       },
       boxShadow: {
-        'tooltipS': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
-        'tooltip1': '0px 20px 40px 0px rgba(0, 0, 0, 0.1)',
+        // 'tooltipS': '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+        'Presentationbox-shadow': '0px 20px 40px 0px rgba(0, 0, 0, 0.1)',
         'Reviewbox-shadow': '0px 1px 4px 0px rgba(0, 0, 0, 0.25)',
       },
       lineHeight: {
@@ -51,6 +51,9 @@ export default {
         'mobile': '426px',
         'laptop': '1440px',
         'halfxl': '1327px',
+      },
+      dropShadow:{
+        
       }
 
     },

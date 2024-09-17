@@ -37,7 +37,7 @@ function Footer() {
             width={29}
             className="w-[18px] mobile:w-[29px]"
           />
-          <p className="text-white w-[81px] font-elzaMedium text-base mobile:text-[22px]">
+          <p className="text-white w-[81px] font-elzaMedium text-lg mobile:text-[22px]">
             GenPPT
           </p>
         </a>

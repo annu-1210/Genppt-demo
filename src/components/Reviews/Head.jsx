@@ -4,7 +4,7 @@ function Head() {
       <h5 className="font-elzaMedium text-[15px] md:text-[19px] text-orange">
         Customer Reviews
       </h5>
-      <h3 className="text-center text-[25px] md:text-[53px] font-elzaSemibold leading-[30px] md:leading-[60px]">
+      <h3 className="text-center text-[25px] md:text-[53px] font-elzaSemibold leading-[30px] md:leading-[60px] text-BoldBlack">
         Our
         <span className="text-orange"> satisfied customers</span>
       </h3>

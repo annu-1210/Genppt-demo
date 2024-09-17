@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import img_1 from "../../assets/hero-slider-2.png";
 import img_2 from "../../assets/hero-slider-1.png";
 import img_3 from "../../assets/hero-slider-3.png";
@@ -7,34 +7,33 @@ import "swiper/css";
 import tooltip from "/Images/slider-tooltip.png";
 
 const HeroSlider = () => {
-  const [activeSlide, setActiveSlide] = useState(0);
+  const [activeSlide, setActiveSlide] = useState(1);
 
   const images = [img_1, img_2, img_3, img_1, img_2, img_3];
-
   const tooltipImage = tooltip;
 
   const handleSlideChange = (swiper) => {
     setActiveSlide(swiper.realIndex);
   };
 
-  // const indexes = images[1] + images[4];
+  useEffect(() => {
+    setActiveSlide(1);
+  }, []);
+
   return (
     <div className="w-full max-w-[1920px] mx-auto py-4">
       <Swiper
         loop={true}
         centeredSlides={true}
+        initialSlide={1}
         slidesPerView={1.3}
-        spaceBetween={30}
+        spaceBetween={20}
         onSlideChange={handleSlideChange}
-        breakpoints={{
-          768: { slidesPerView: 1.2},
-          1024: { slidesPerView: 1.3 },
-        }}
       >
         {images.map((image, index) => (
-          <SwiperSlide key={index} className="Swiper-Slide">
+          <SwiperSlide key={index} className="relative custom-swiper-slide">
             <div
-              className={`relative transition-opacity duration-500 ${
+              className={`transition-opacity duration-300 ease-in-out ${
                 activeSlide === index ? "opacity-100" : "opacity-70"
               }`}
             >
@@ -43,21 +42,15 @@ const HeroSlider = () => {
                   src={tooltipImage}
                   alt="tooltip"
                   width={415}
-                  className={`absolute bottom-[-20px] sm:bottom-4 xl:bottom-8 right-12 sm:right-[46px] translate-x-[50%] ease-in-out duration-300 max-w-[200px] lg:max-w-[300px] xl:max-w-none z-10 ${
+                  className={`absolute bottom-4 right-12 transform translate-x-[50%] transition-opacity duration-500 z-20 ${
                     activeSlide === index ? "opacity-100" : "opacity-0"
                   }`}
                 />
               )}
-              <img
-                src={image}
-                alt={`Slide ${index + 1}`}
-                width={522}
-                height={350}
-                className="w-full "
-              />
+              <img src={image} alt={`Slide ${index + 1}`} className="w-full" />
             </div>
           </SwiperSlide>
-        ))}{" "}
+        ))}
       </Swiper>
     </div>
   );

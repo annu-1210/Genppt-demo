@@ -9,27 +9,27 @@
 }
 
 @layer components {
-  .Swiper-Slide {
+  .custom-swiper-slide {
     max-width: 242px !important;
     width: 100% !important;
 
-    @screen mobile{
-      max-width : 322px !important;
+    @screen mobile {
+      max-width: 322px !important;
     }
 
-    @screen sm{
-      max-width : 328px !important;
+    @screen sm {
+      max-width: 328px !important;
     }
 
     @screen md {
       max-width: 334px !important;
     }
-    
+
     @screen lg {
       max-width: 450px !important;
     }
 
-    @screen xl{
+    @screen xl {
       max-width: 638px !important;
     }
 
@@ -38,6 +38,7 @@
     }
   }
 }
+
 
 .common-para {
   @apply text-sm max-w-[720px] text-wrap sm:text-lg xl:text-[21px] text-center font-elzaNormal leading-[22px] mobile:leading-[29px] text-textBlackColor;
@@ -57,6 +58,10 @@
 
 .underline-animation::after {
   @apply absolute content-[''] w-full left-0 border bottom-[-2px] scale-x-0 hover:scale-x-100 transition-transform duration-300 border-black;
+}
+
+.shadow-transition{
+@apply  transition-shadow duration-300 ease-in-out hover:shadow-[0px_20px_10px_-15px_rgba(0,0,0,0.4)]
 }
 
 @font-face {

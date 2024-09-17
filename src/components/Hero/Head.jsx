@@ -47,7 +47,7 @@ function Head() {
           </p>
         </div>
       </div>
-      <h1 className="text-[30px] md:text-[42px] lg:text-[54px] xl:text-[68px] max-w-[861px] max-h-[148px] font-elzaBold leading-8 md:leading-[74px] text-center mx-auto">
+      <h1 className="text-[30px] md:text-[42px] lg:text-[54px] xl:text-[68px] max-w-[861px] max-h-[148px] font-elzaBold leading-8 md:leading-[74px] text-center mx-auto text-BoldBlack">
         Generate
         <span className="inline-flex items-center justify-center gap-2 pl-1 md:pl-2.5 text-orange md:gap-5 sm:gap-3">
           PowerPoint

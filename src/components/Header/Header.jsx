@@ -13,21 +13,21 @@ function Header() {
 
   return (
     <>
-      <nav className="relative z-30 w-full overflow-hidden">
+      <nav className="relative z-30 w-full overflow-hidden ">
         <div className="container flex items-center justify-between px-3 py-5 mx-auto md:py-6 ">
-          <a className="flex items-center gap-1 w-[155px] h-[29px] " href="/">
+          <a className="flex items-center gap-1 w-[155px] h-[29px]" href="/">
             <img
               src="./Images/genppt-logo.png"
               alt="Genppt-logo"
               width={29}
               className="w-[18px] mobile:w-[29px]"
             />
-            <p className="text-black w-[81px] font-elzaMedium text-base mobile:text-[22px]">
+            <p className="text-black w-[81px] font-elzaMedium text-[17px] mobile:text-[22px]">
               GenPPT
             </p>
           </a>
-          <div className="flex items-center justify-end md:justify-center mobile:gap-[31px] w-[550px] h-[42px] ">
-            <div className="hidden md:inline-block">
+          <div className="flex items-center justify-end w-[550px] h-[42px] ">
+            <div className="hidden md:inline-block ">
               <NavLinks />
             </div>
             <ActionButton
@@ -45,9 +45,7 @@ function Header() {
       {isOpen && (
         <div className="fixed md:hidden flex flex-col border z-10 bg-white font-elzaMedium text-textBlackColor top-20 right-[12px] rounded-md border-textBlackColor w-[170px] h-[181px] py-4 px-4">
           <div className="relative top-0 left-28">
-            <button onClick={toggleNav}>
-              <RxCross2 size={24} />
-            </button>
+            <RxCross2 size={24} onClick={toggleNav} />
           </div>
           <div className="flex justify-start ">
             <NavLinks />

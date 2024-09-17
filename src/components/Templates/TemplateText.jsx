@@ -6,7 +6,7 @@ function TemplateText() {
       <h5 className="text-base mobile:text-lg font-elzaMedium text-orange md:text-start ">
         Professional Templates
       </h5>
-      <h3 className="text-[25px] mobile:text-[35px] sm:text-[36px] md:text-[40px] lg:text-[50px] xl:text-[53px] leading-7 mobile:leading-[36px] md:leading-[42px] lg:leading-[56px] font-elzaSemibold">
+      <h3 className="text-[25px] mobile:text-[35px] sm:text-[36px] md:text-[40px] lg:text-[50px] xl:text-[53px] leading-7 mobile:leading-[36px] md:leading-[42px] lg:leading-[56px] font-elzaSemibold text-BoldBlack">
         Over <span className="text-orange">50+ inspiring </span>
         templates
       </h3>

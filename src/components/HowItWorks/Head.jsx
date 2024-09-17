@@ -4,7 +4,7 @@ function Head() {
       <h5 className=" text-base mobile:text-[19px] text-orange  font-elzaMedium ">
         How it Works
       </h5>
-      <h3 className="font-elzaSemibold text-[22px] mobile:text-[32px] sm:text-[40px] xl:text-[53px] leading-7 mobile:leading-[38px] sm:leading-[42px] md:leading-[46px] xl:leading-[60px] lg:text-start">
+      <h3 className="font-elzaSemibold text-[22px] mobile:text-[32px] sm:text-[40px] xl:text-[53px] leading-7 mobile:leading-[38px] sm:leading-[42px] md:leading-[46px] xl:leading-[60px] lg:text-start text-BoldBlack">
         Create stunning
         <br />
         presentations <span className="text-orange">fast and easy</span>

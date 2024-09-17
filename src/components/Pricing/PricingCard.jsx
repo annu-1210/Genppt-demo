@@ -30,9 +30,9 @@ function PricingCard() {
               {card.time}
             </h6>
             <div className="flex flex-col gap-0 text-center">
-              <p className=" pt-2.5 text-xl md:text-[26px] text-center leading-[31px] font-elzaSemibold text-BoldBlack">
-                <span className="text-[41px]">${card.price}</span>
-                {card.timespan}
+              <p className=" pt-2.5 text-[41px] text-center leading-[31px] font-elzaSemibold text-BoldBlack">
+                ${card.price}
+                <span className="text-[26px]">{card.timespan}</span>
               </p>
               <div>
                 <span className="text-base mobile:text-lg font-elzaMedium text-orange md:text-start">
