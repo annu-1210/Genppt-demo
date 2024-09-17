@@ -26,6 +26,7 @@ const FooterData = [
 ];
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="relative z-20 py-10 mx-auto bg-Footerbg">
       <div className="container flex flex-col justify-between gap-12 px-5 mx-auto mobile:gap-0 md:flex-row ">
@@ -66,7 +67,7 @@ function Footer() {
           })}
         </div>
         <div className="text-[18px] text-FooterTextColor font-elzaNormal">
-          <span>© 2024 GenPPT</span>
+          <p>&copy; <span>{currentYear}</span> GenPPT</p>
         </div>
       </div>
     </footer>
