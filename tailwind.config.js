@@ -7,11 +7,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        elzaLight: ['light-elza'],
-        elzaNormal: ['normal-elza'],
-        elzaMedium: ['medium-elza'],
-        elzaSemibold: ['semibold-elza'],
-        elzaBold: ['bold-elza'],
+        elzaLight: ['light-elza', 'Arial', 'sans-serif'],
+        elzaNormal: ['normal-elza', 'Arial', 'sans-serif'],
+        elzaMedium: ['medium-elza', 'Arial', 'sans-serif'],
+        elzaSemibold: ['semibold-elza', 'Arial', 'sans-serif'],
+        elzaBold: ['bold-elza', 'Arial', 'sans-serif'],
       },
       colors: {
         orange: 'rgba(239, 108, 0, 1)',
