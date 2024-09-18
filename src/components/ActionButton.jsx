@@ -27,12 +27,12 @@ const button = tv(
   }
 );
 
-const ActionButton = ({ mobile, desktop, color, size }) => {
+const ActionButton = ({ mobileLabel, desktopLabel, color, size }) => {
   return (
     <div>
       <button className={button({ color, size })}>
-        <span className="sm:hidden ">{mobile}</span>
-        <span className="hidden sm:inline">{desktop}</span>
+        <span className="sm:hidden ">{mobileLabel}</span>
+        <span className="hidden sm:inline">{desktopLabel}</span>
       </button>
     </div>
   );

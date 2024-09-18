@@ -15,7 +15,6 @@ function GetStarted() {
             <img
               src="./Images/get-started-img.png"
               alt="getstarted-img"
-              className=""
             />
           </div>
         </div>

@@ -10,14 +10,14 @@ function TemplateText() {
         Over <span className="text-orange">50+ inspiring </span>
         templates
       </h3>
-      <h6 className="mx-3 md:text-start common-para">
+      <p className="mx-3 md:text-start common-para">
         GenPPT provides a range of professionally designed templates for any
         style, from elegant and minimalist to notebook.
-      </h6>
+      </p>
       <div className="w-full h-[48px] flex justify-center md:justify-start items-center mt-6 md:mt-5 ">
         <ActionButton
-          desktop="View templates"
-          mobile="View templates"
+          desktopLabel="View templates"
+          mobileLabel="View templates"
           color="teritary"
           size="xl"
         />
