@@ -6,6 +6,7 @@ function Head() {
       </h5>
 
       <h3 className="font-elzaSemibold text-[22px] mobile:text-[32px] sm:text-[40px] xl:text-[53px] leading-7 mobile:leading-[38px] sm:leading-[42px] md:leading-[46px] xl:leading-[60px] lg:text-start text-BoldBlack">
+      {/* text-center text-BoldBlack font-elzaSemibold text-[27px] md:text-[38px] xl:text-[54px] leading-[30px] md:leading-[50px] xl:leading-stats max-w-[400px] md:max-w-[861px] */}
         Create stunning
         <br />
         presentations <span className="text-orange">fast and easy</span>

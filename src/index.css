@@ -31,13 +31,17 @@
     }
 
     @screen xl {
-      max-width: 638px !important;
+      max-width: 628px !important;
     }
 
     @screen 2xl {
       max-width: 868px !important;
     }
   }
+}
+
+.common-sub-heading{
+  @apply 
 }
 
 .common-para {
@@ -99,3 +103,9 @@
   font-weight: 700;
 }
 
+
+/* font-family: Elza;
+font-size: 53px;
+font-weight: 600;
+line-height: 60px;
+text-align: center; */

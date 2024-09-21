@@ -18,7 +18,7 @@ const button = tv(
         md: "w-[144px] h-[48px] sm:w-[140px] sm:h-[48px] px-[25px] py-3.5 sm:px-[17px] sm:py-3 text-base sm:text-lg",
         lg: "w-[156px] h-[45px] sm:w-[168px] sm:h-[48px] px-[25px] py-[13px] sm:px-[17px] sm:py-3 text-base sm:text-xl",
         xl: "w-[165px] h-[45px] sm:w-[183px] sm:h-[48px] px-[22px] py-[13px] sm:px-[17px] sm:py-3 text-base sm:text-xl ",
-        xxl: "w-[134px] h-[45px] sm:w-[168px] sm:h-[48px] py-3.5 px-[23px] sm:py-3 sm:px-[17px] text-base",
+        xxl: "w-[134px] h-[45px] sm:w-[195px] sm:h-[48px] py-3.5 px-[23px] sm:py-3 sm:px-[17px] text-base sm:text-xl",
       },
     },
   },

@@ -27,8 +27,7 @@ function HeroSlider() {
         initialSlide={1}
         slidesPerView={'auto'}
         centeredSlides={true}
-        spaceBetween={10}
-        // className="mySwiper"
+        spaceBetween={20}
         onSlideChange={handleSlideChange}
       >
         {images.map((image, index) => (
@@ -43,10 +42,10 @@ function HeroSlider() {
                   src={tooltipImage}
                   alt="tooltip"
                   width={415}
-                  className={`absolute bottom-4 right-12 transform translate-x-[50%] transition-opacity duration-500 z-20 ${
+                  className={`max-w-[200px] lg:max-w-[300px] xl:max-w-none absolute bottom-[-20px] sm:bottom-4 xl:bottom-8 right-12 sm:right-[46px] translate-x-[50%] ease-in-out duration-300 transform transition-opacity z-20 ${
                     activeSlide === index ? "opacity-100" : "opacity-0"
                   }`}
-                />
+                                 />
               )}
               <img src={image} alt={`Slide ${index + 1}`} className="w-full" />
             </div>
