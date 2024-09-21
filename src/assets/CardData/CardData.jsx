@@ -12,7 +12,7 @@ const CardData = [
   {
     id: 2,
     title: "Choose your topic",
-    desc: "Whether it's about animals, politics, or space, GenPPT creates presentations on any subject you specify.",
+    desc: "Whether its about animals, politics, or space, GenPPT creates presentations on any subject you specify.",
     image: img_2,
   },
   {

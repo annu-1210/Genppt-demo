@@ -8,7 +8,7 @@ function Hero() {
         <Head />
       </div>
 
-      <div className="w-full 2xl:max-w-[1920px] max-h-[482px] mt-10">
+      <div className="max-w-[1920px] mt-10">
         <HeroSlider />
       </div>
 

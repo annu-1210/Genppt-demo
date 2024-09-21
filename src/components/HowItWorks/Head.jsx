@@ -12,7 +12,7 @@ function Head() {
       </h3>
 
       <h6 className="text-sm common-para md:max-w-[650px] lg:text-start mt-1 mobile:mt-0">
-        It&apos;s as simple as you choosing the theme and topic - GenPPT will
+        Its as simple as you choosing the theme and topic - GenPPT will
         handle the rest including content and media.
       </h6>
       <img

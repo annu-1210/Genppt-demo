@@ -1,19 +1,19 @@
-import ActionButton from '../ActionButton';
+import ActionButton from "../ActionButton";
 
 const pricingOptions = [
   {
     id: 1,
-    duration: 'Monthly',
+    duration: "Monthly",
     amount: 9,
-    billingCycle: '/month',
-    trialPeriod: '3 day free trial',
+    billingCycle: "month",
+    trialPeriod: "3 day free trial",
   },
   {
     id: 2,
-    duration: 'Yearly',
+    duration: "Yearly",
     amount: 90,
-    billingCycle: '/year',
-    trialPeriod: '3 day free trial',
+    billingCycle: "year",
+    trialPeriod: "3 day free trial",
   },
 ];
 
@@ -30,8 +30,9 @@ function PricingCard() {
           </h6>
           <div className="flex flex-col gap-0 text-center">
             <p className="pt-2.5 text-[41px] leading-[31px] font-elzaSemibold text-BoldBlack">
-              ${option.amount}
-              <span className="text-[26px]">{option.billingCycle}</span>
+              <span className="font-bold font-openSans">$</span>
+              {option.amount}
+              <span className="text-[26px]"><span className="font-bold font-openSans">/</span>{option.billingCycle}</span>
             </p>
             <div>
               <span className="text-base mobile:text-lg font-elzaMedium text-orange md:text-start">

@@ -10,16 +10,15 @@ function Head() {
 
   return (
     <div className="flex flex-col items-center gap-5 px-3">
-      <div className="flex justify-between w-[235px] h-[32px]">
+      <div className="flex justify-between w-[260px] h-[32px]">
         <div className="relative flex items-end w-[95px]">
-          {userIcons.map((icon, index) => (
+          {userIcons.map((icon,index) => (
             <img
               key={index}
               src={icon}
               alt={`User ${index + 1}`}
-              className={`absolute w-[30px] h-[30px] rounded-full border-2 border-textWhiteColor left-${
-                index * 4
-              }`}
+              className="absolute w-[30px] h-[30px] rounded-full border-2 border-textWhiteColor"
+              style={{ left: `${index * 15}px` }}
             />
           ))}
         </div>

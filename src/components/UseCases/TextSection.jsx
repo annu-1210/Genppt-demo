@@ -8,7 +8,7 @@ function TextSection() {
         Use Cases
       </h5>
       <h3 className="font-elzaSemibold text-[25px] mobile:text-[32px] sm:text-[40px] xl:text-[53px] leading-7 mobile:leading-[36px] sm:leading-[46px] xl:leading-[60px] lg:text-start mb-8 text-BoldBlack">
-        What can GenPPT <br /> generate?
+        What can GenPPT <br /> generate<span className='font-bold font-manrope'>?</span>
       </h3>
       <div className="flex flex-wrap gap-y-10 gap-x-4 xl:gap-x-[30px] md:max-w-[430px] lg:max-w-[654px] mb-[31px] xl:mb-[69px]">
         {UcData.map((item) => (

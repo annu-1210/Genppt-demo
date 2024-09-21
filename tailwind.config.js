@@ -9,9 +9,11 @@ export default {
       fontFamily: {
         elzaLight: ['light-elza', 'Arial', 'sans-serif'],
         elzaNormal: ['normal-elza', 'Arial', 'sans-serif'],
-        elzaMedium: ['medium-elza', 'Arial', 'sans-serif'],
+        elzaMedium: ['medium-elza', 'Open Sans', 'sans-serif'],
         elzaSemibold: ['semibold-elza', 'Arial', 'sans-serif'],
         elzaBold: ['bold-elza', 'Arial', 'sans-serif'],
+        manrope:['"Manrope", sans-serif'],
+        openSans:['"Open Sans", sans-serif'],
       },
       colors: {
         orange: 'rgba(239, 108, 0, 1)',

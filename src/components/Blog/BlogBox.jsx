@@ -34,7 +34,7 @@ function BlogBox() {
               alt={blog.label}
               className="w-full h-auto rounded-lg"
             />
-            <h3 className="text-[16px] mobile:text-[18px] xl:text-[22px] leading-5 mobile:leading-6 lg:leading-[25px] laptop:leading-[30px] font-elzaMedium text-start text-BoldBlack">
+            <h3 className="text-[16px] mobile:text-[18px] xl:text-[22px] leading-5 mobile:leading-6 lg:leading-[25px] laptop:leading-[30px] font-elzaMedium  text-start text-BoldBlack">
               {blog.label}
             </h3>
           </div>

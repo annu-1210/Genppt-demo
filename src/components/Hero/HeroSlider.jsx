@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import tooltip from "/Images/slider-tooltip.png";
 
-const HeroSlider = () => {
+function HeroSlider() {
   const [activeSlide, setActiveSlide] = useState(1);
 
   const images = [img_1, img_2, img_3, img_1, img_2, img_3];
@@ -24,10 +24,11 @@ const HeroSlider = () => {
     <div className="w-full max-w-[1920px] mx-auto py-4">
       <Swiper
         loop={true}
-        centeredSlides={true}
         initialSlide={1}
-        slidesPerView={1.3}
-        spaceBetween={20}
+        slidesPerView={'auto'}
+        centeredSlides={true}
+        spaceBetween={10}
+        // className="mySwiper"
         onSlideChange={handleSlideChange}
       >
         {images.map((image, index) => (
@@ -54,6 +55,6 @@ const HeroSlider = () => {
       </Swiper>
     </div>
   );
-};
+}
 
 export default HeroSlider;

@@ -10,8 +10,9 @@
 
 @layer components {
   .custom-swiper-slide {
-    max-width: 242px !important;
+    max-width: 232px !important;
     width: 100% !important;
+    opacity: 1 !important;
 
     @screen mobile {
       max-width: 322px !important;
@@ -39,7 +40,6 @@
   }
 }
 
-
 .common-para {
   @apply text-sm max-w-[720px] text-wrap sm:text-lg xl:text-[21px] text-center font-elzaNormal leading-[22px] mobile:leading-[29px] text-textBlackColor;
 }
@@ -60,41 +60,42 @@
   @apply absolute content-[''] w-full left-0 border bottom-[-2px] scale-x-0 hover:scale-x-100 transition-transform duration-300 border-black;
 }
 
-.shadow-transition{
-@apply  transition-shadow duration-300 ease-in-out hover:shadow-[0px_20px_10px_-15px_rgba(0,0,0,0.4)]
+.shadow-transition {
+  @apply transition-shadow duration-300 ease-in-out hover:shadow-[0px_20px_10px_-15px_rgba(0,0,0,0.4)];
 }
 
 @font-face {
   font-family: "light-elza";
   src: url("../Fonts/elza-light.otf") format("opentype");
-  unicode-range: U+0020-007F; 
+  unicode-range: U+0020-007F;
   font-weight: 300;
 }
 
 @font-face {
   font-family: "normal-elza";
   src: url("../Fonts/elza-regular.otf") format("opentype");
-  unicode-range: U+0020-007F; 
+  unicode-range: U+0020-007F;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "medium-elza";
   src: url("../Fonts/elza-medium.otf") format("opentype");
-  unicode-range: U+0020-007F; 
+  unicode-range: U+0020-007F;
   font-weight: 500;
 }
 
 @font-face {
   font-family: "semibold-elza";
   src: url("../Fonts/elza-semibold.otf") format("opentype");
-  unicode-range: U+0020-007F; 
+  unicode-range: U+0020-007F;
   font-weight: 600;
 }
 
 @font-face {
   font-family: "bold-elza";
   src: url("../Fonts/elza-bold.otf") format("opentype");
-  unicode-range: U+0020-007F; 
+  unicode-range: U+0020-007F;
   font-weight: 700;
 }
+
