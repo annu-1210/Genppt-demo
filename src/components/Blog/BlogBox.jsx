@@ -26,7 +26,7 @@ function BlogBox() {
       {BlogData.map((blog) => (
         <div
           key={blog.id}
-          className="bg-gradient-to-r from-CardGradient1 to-CardGradient2 rounded-[7px] border w-[90%] xsm:w-[60%] md:w-[340px] lg:w-[370px] xl:w-[425px] laptop:w-[436px] h-[275px] sm:h-[300px] md:max-h-[320px] lg:h-[290px] xl:h-[320px] laptop:h-[344px] py-5 px-5"
+          className="bg-gradient-to-r from-CardGradient1 to-CardGradient2 rounded-[7px] border w-[90%] xsm:w-[60%] md:w-[340px] lg:w-[370px] xl:w-[425px] 2xl:w-[436px] h-[275px] sm:h-[300px] md:max-h-[320px] lg:h-[290px] xl:h-[320px] 2xl:h-[344px] py-5 px-5"
         >
           <div className="flex flex-col gap-4">
             <img
@@ -34,7 +34,7 @@ function BlogBox() {
               alt={blog.label}
               className="w-full h-auto rounded-lg"
             />
-            <h3 className="text-[16px] xsm:text-[18px] xl:text-[22px] leading-5 xsm:leading-6 lg:leading-[25px] laptop:leading-[30px] font-elzaMedium  text-start text-BoldBlack">
+            <h3 className="text-[16px] xsm:text-[18px] xl:text-[22px] leading-5 xsm:leading-6 lg:leading-[25px] 2xl:leading-[30px] font-elzaMedium  text-start text-BoldBlack">
               {blog.label}
             </h3>
           </div>

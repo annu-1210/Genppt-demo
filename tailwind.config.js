@@ -51,8 +51,9 @@ export default {
       },
       screens: {
         'xsm': '425px',
-        'laptop': '1440px',
         'halfXl': '1327px',
+        '2xl': '1440px',
+        '3xl':'1536px',
       },
       dropShadow:{
         
