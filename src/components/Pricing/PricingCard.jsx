@@ -19,11 +19,11 @@ const pricingOptions = [
 
 function PricingCard() {
   return (
-    <div className="flex flex-col flex-wrap justify-center gap-10 mx-auto md:flex-nowrap sm:flex-row lg:justify-between sm:gap-10">
+    <div className="flex flex-col flex-wrap justify-center mx-auto md:flex-nowrap sm:flex-row lg:justify-between sm:gap-10">
       {pricingOptions.map((option) => (
         <div
           key={option.id}
-          className="w-[243px] h-[233px] bg-white rounded-[5px] flex flex-col items-center justify-center font-Elza gap-1"
+          className="w-full mobile:w-[268px] sm:w-[243px] mx-auto h-[233px] sm:mx-0 pt-7 pb-6 text-center mt-9 lg:mt-0 bg-white rounded-[5px] flex flex-col items-center justify-center gap-1 "
         >
           <h6 className="text-[23px] text-BoldBlack font-elzaMedium">
             {option.duration}

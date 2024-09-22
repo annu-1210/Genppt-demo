@@ -15,7 +15,7 @@
     opacity: 1 !important;
 
     @screen mobile {
-      max-width: 322px !important;
+      max-width: 342px !important;
     }
 
     @screen sm {
@@ -41,7 +41,7 @@
 }
 
 .common-sub-heading{
-  @apply 
+  @apply mx-auto
 }
 
 .common-para {

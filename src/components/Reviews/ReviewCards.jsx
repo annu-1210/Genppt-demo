@@ -2,7 +2,7 @@ import ReviewerData from '../../assets/ReviewerData/Reviewer';
 
 function ReviewCards() {
   return (
-    <div className="flex flex-wrap gap-[33px] w-full justify-center items-center">
+    <div className="flex flex-wrap md:gap-x-8 lg:gap-[33px] w-full justify-center items-center">
       {ReviewerData.map((reviewer) => (
         <div
           key={reviewer.id}

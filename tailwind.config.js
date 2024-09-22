@@ -50,7 +50,7 @@ export default {
         
       },
       screens: {
-        'mobile': '426px',
+        'mobile': '425px',
         'laptop': '1440px',
         'halfxl': '1327px',
       },
