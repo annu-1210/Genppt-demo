@@ -10,7 +10,7 @@
 
 @layer components {
   .custom-swiper-slide {
-    max-width: 232px !important;
+    max-width: 240px !important;
     width: 100% !important;
     opacity: 1 !important;
 
