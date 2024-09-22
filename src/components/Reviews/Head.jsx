@@ -8,7 +8,7 @@ function Head() {
         Our
         <span className="text-orange"> satisfied customers</span>
       </h3>
-      <p className="common-para leading-[22px] md:leading-[29px] mt-1 mobile:mt-0 mx-3">
+      <p className="common-para leading-[22px] md:leading-[29px] mt-1 xsm:mt-0 mx-3">
         With over 1,200 presentations generated and nearly 4,000 hours saved,
         GenPPT is a proven winner for our customers.
       </p>

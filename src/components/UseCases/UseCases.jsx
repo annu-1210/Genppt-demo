@@ -4,7 +4,7 @@ import TextSection from "./TextSection";
 function UseCases() {
   return (
     <section className="max-w-[1440px] mx-auto relative flex flex-col justify-center items-center py-[38px] md:py-[54px]">
-      <div className="container z-30 flex px-5 mx-auto mobile:px-3 text-start gap-14 ">
+      <div className="container z-30 flex px-5 mx-auto xsm:px-3 text-start gap-14 ">
         <TextSection />
         <ImageSection />
       </div>

@@ -34,7 +34,7 @@ function Footer() {
           </p>
         </a>
 
-        <div className="flex gap-[65px] flex-wrap mobile:gap-[50px] sm:gap-[70px] md:gap-[36px] lg:gap-[60px]">
+        <div className="flex gap-[65px] flex-wrap xsm:gap-[50px] sm:gap-[70px] md:gap-[36px] lg:gap-[60px]">
           {FooterData.map((data) => (
             <div
               key={data.id}

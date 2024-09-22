@@ -23,7 +23,7 @@ function PricingCard() {
       {pricingOptions.map((option) => (
         <div
           key={option.id}
-          className="w-[full] mobile:w-[268px] sm:w-[243px] mx-auto h-[233px] sm:mx-0 pt-7 pb-6 text-center mt-9 lg:mt-0 bg-white rounded-[5px] flex flex-col items-center justify-center gap-1 "
+          className="w-[full] xsm:w-[268px] sm:w-[243px] mx-auto h-[233px] sm:mx-0 pt-7 pb-6 text-center mt-9 lg:mt-0 bg-white rounded-[5px] flex flex-col items-center justify-center gap-1 "
         >
           <h6 className="text-[23px] text-BoldBlack font-elzaMedium">
             {option.duration}
@@ -35,7 +35,7 @@ function PricingCard() {
               <span className="text-[26px]"><span className="font-bold font-openSans">/</span>{option.billingCycle}</span>
             </p>
             <div>
-              <span className="text-base mobile:text-lg font-elzaMedium text-orange md:text-start">
+              <span className="text-base xsm:text-lg font-elzaMedium text-orange md:text-start">
                 {option.trialPeriod}
               </span>
             </div>

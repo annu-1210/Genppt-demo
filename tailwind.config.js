@@ -50,9 +50,9 @@ export default {
         
       },
       screens: {
-        'mobile': '425px',
+        'xsm': '425px',
         'laptop': '1440px',
-        'halfxl': '1327px',
+        'halfXl': '1327px',
       },
       dropShadow:{
         

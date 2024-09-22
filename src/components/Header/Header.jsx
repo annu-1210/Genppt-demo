@@ -19,14 +19,14 @@ function Header() {
             <img
               src="./Images/genppt-logo.png"
               alt="GenPPT Logo"
-              className="w-[18px] mobile:w-[29px]"
+              className="w-[18px] xsm:w-[29px]"
             />
-            <p className="text-black w-[81px] font-elzaMedium text-[17px] mobile:text-[22px]">
+            <p className="text-black w-[81px] font-elzaMedium text-[17px] xsm:text-[22px]">
               GenPPT
             </p>
           </a>
 
-          <div className="flex items-center justify-end w-full max-w-[550px] mobile:gap-[31px]">
+          <div className="flex items-center justify-end w-full max-w-[550px] xsm:gap-[31px]">
             <div className="hidden md:block">
               <NavLinks />
             </div>

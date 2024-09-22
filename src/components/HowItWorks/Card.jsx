@@ -6,7 +6,7 @@ function Card({ card }) {
         <h6 className="text-lg xl:text-xl font-elzaMedium mb-1.5">
           {card.title}
         </h6>
-        <p className="text-sm xl:text-[17px] leading-[22px] mobile:leading-6 font-elzaNormal">
+        <p className="text-sm xl:text-[17px] leading-[22px] xsm:leading-6 font-elzaNormal">
           {card.desc}
         </p>
       </div>

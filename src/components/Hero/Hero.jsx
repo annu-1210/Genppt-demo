@@ -9,16 +9,16 @@ function Hero() {
           <Head />
         </div>
 
-        <div className="max-w-[1920px] mt-20 mobile:mt-16 sm:mt-10">
+        <div className="max-w-[1920px] mt-20 xsm:mt-16 sm:mt-10">
           <HeroSlider />
           <img
             src="./Images/bg-ellipse-3.png"
             alt="hero-bg"
-            className="absolute bottom-0 left-1/2 translate-x-[-50%] max-w-[1348px] w-full lg:w-[95%] min-h-[210px] mobile:min-h-[225px] sm:min-h-[236px] lg:h-auto object-cover object-top"
+            className="absolute bottom-0 left-1/2 translate-x-[-50%] max-w-[1348px] w-full lg:w-[95%] min-h-[210px] xsm:min-h-[225px] sm:min-h-[236px] lg:h-auto object-cover object-top"
           />
         </div>
 
-        <div className="absolute w-[90px] sm:w-[150px] lg:w-[160px] xl:w-[320px] top-[380px] mobile:top-[330px] sm:top-[250px] md:top-[260px] lg:top-[270px] xl:top-[310px] left-[20px] sm:left-[80px] md:left-[110px] xl:left-[277px] z-30">
+        <div className="absolute w-[90px] sm:w-[150px] lg:w-[160px] xl:w-[320px] top-[380px] xsm:top-[330px] sm:top-[250px] md:top-[260px] lg:top-[270px] xl:top-[310px] left-[20px] sm:left-[80px] md:left-[110px] xl:left-[277px] z-30">
           <img src="./Images/sparkle.png" alt="sparkle" width={200} />
         </div>
       </div>

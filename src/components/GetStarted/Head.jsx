@@ -3,7 +3,7 @@ import ActionButton from "../ActionButton";
 function Head() {
   return (
     <div className="flex flex-col items-center gap-2 sm:gap-4">
-      <h3 className="font-elzaSemibold text-[24px] mobile:text-[32px] sm:text-[40px] xl:text-[53px] leading-7 mobile:leading-[38px] sm:leading-[42px] md:leading-[46px] xl:leading-[60px] text-center text-BoldBlack">
+      <h3 className="font-elzaSemibold text-[24px] xsm:text-[32px] sm:text-[40px] xl:text-[53px] leading-7 xsm:leading-[38px] sm:leading-[42px] md:leading-[46px] xl:leading-[60px] text-center text-BoldBlack">
         Get started with
         <span className="text-orange"> GenPPT</span>
       </h3>

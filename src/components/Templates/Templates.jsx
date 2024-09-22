@@ -2,7 +2,7 @@ import TemplateText from "./TemplateText";
 
 function Templates() {
   return (
-    <section className="relative max-w-[1440px] mx-auto pt-2 mobile:pt-10 xl:py-[105px] ">
+    <section className="relative max-w-[1440px] mx-auto pt-2 xsm:pt-10 xl:py-[105px] ">
       <div className="container flex justify-end w-full mx-auto xl:pb-10">
         <TemplateText />
       </div>
