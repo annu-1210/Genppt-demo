@@ -9,7 +9,7 @@ function Hero() {
           <Head />
         </div>
 
-        <div className="max-w-[1920px] mt-20 sm:mt-10">
+        <div className="max-w-[1920px] mt-20 mobile:mt-16 sm:mt-10">
           <HeroSlider />
           <img
             src="./Images/bg-ellipse-3.png"
@@ -18,7 +18,7 @@ function Hero() {
           />
         </div>
 
-        <div className="absolute w-[100px] sm:w-[120px] lg:w-[320px] top-[290px] sm:top-[250px] md:top-[300px] lg:top-[330px] xl:top-[330px] left-[30px] sm:left-[80px] md:left-[110px] xl:left-[277px] z-30">
+        <div className="absolute w-[90px] sm:w-[150px] lg:w-[160px] xl:w-[320px] top-[380px] mobile:top-[330px] sm:top-[250px] md:top-[260px] lg:top-[270px] xl:top-[310px] left-[20px] sm:left-[80px] md:left-[110px] xl:left-[277px] z-30">
           <img src="./Images/sparkle.png" alt="sparkle" width={200} />
         </div>
       </div>

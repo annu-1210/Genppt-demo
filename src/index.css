@@ -45,7 +45,7 @@
 }
 
 .common-para {
-  @apply text-sm max-w-[720px] text-wrap sm:text-lg xl:text-[21px] text-center font-elzaNormal leading-[22px] mobile:leading-[29px] text-textBlackColor;
+  @apply text-sm max-w-[720px] text-wrap sm:text-lg xl:text-[21px] text-center font-elzaNormal leading-[22px] mobile:leading-[22px] text-textBlackColor;
 }
 
 .container {
